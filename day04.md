@@ -136,7 +136,7 @@ public class Ex01 {
 }
 
 ```
-![그림1](C:\Users\casio\OneDrive\사진\그림1.png)
+![그림1](.\image\그림1.png)
 
 
 
@@ -448,6 +448,6 @@ public class Ex02 {
 ```shell
 $ C:\Users\casio\OneDrive\바탕 화면\temp>javadoc Account.java
 ```
-![그림2](C:\Users\casio\OneDrive\사진\그림2.png)
+![그림2](.\image\그림2.png)
 Account()가 자동 생성됨(디폴트 생성자)
 
