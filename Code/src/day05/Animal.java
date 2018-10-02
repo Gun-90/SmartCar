@@ -2,7 +2,7 @@ package day05;
 
 public class Animal {
 	
-	String kind = "동물의종류";
+	public String kind = "동물의종류";
 	public Animal() {
 		super();
 		System.out.println("animal instance 생성");
