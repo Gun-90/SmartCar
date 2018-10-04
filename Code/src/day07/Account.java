@@ -1,19 +1,20 @@
-package day04;
+package day07;
 
 public class Account {
 	//member variable
 	private String number;
+	private String name;
+	private int money;
 	
 	public Account() {
 		System.out.println("Account() 생성");
 	}
 	
-	public Account(String number, String name, int money) {
+	public Account(String number, String name, int money) throws MoneyException{
 		this.number = number;
 		this.name = name;
-		this.money = money;
-		
-		
+		//this.money = money;		
+		setMoney(money);
 	}
 	
 	
@@ -25,12 +26,11 @@ public class Account {
 		this.number = number;
 	}
 
-	private String name;
-	private int money;
-	
-	public void setMoney(int money){
+	// setmoney method는 예외가 발생할수 있음
+	public void setMoney(int money) throws MoneyException{
 		
-		if(money<0) return;
+		
+		if(money<0) throw new MoneyException();
 		this.money = money;
 	}
 	
