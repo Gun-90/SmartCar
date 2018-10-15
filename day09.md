@@ -183,13 +183,14 @@ SQL> desc dept;
                                                         VARCHAR2(13)
 ```
 
-![1008-3](C:\Workspace\SmartCar\image\1008-3.png)
+![1008-3](./image/1008-3.png)
 java EE 선택후 Data Sorce Explorer -> Database connections 우측클릭 ->new -> oracle
-![1008-1png](C:\Workspace\SmartCar\image\1008-1png.png)
+![1008-1png](./image/1008-1png.png)
 
 빨간색 버튼 누름-> oracle thin driver - system version 11 선택 ->jar list에 있는 파일 삭제후 add ojdbc6.jar
 
-![1008-04](C:\Workspace\SmartCar\image\1008-04.png)![1008-2](C:\Workspace\SmartCar\image\1008-2.png)
+![1008-04](./image/1008-04.png)
+![1008-2](./image/1008-2.png)
 
 
 

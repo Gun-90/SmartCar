@@ -38,10 +38,22 @@ public class Exception01 {
 
 
 
+---
+
 ### 제너릭
+
+#### 제너릭은 다양한 타입의 객체들을 다루는 메서드나 컬렉션 클래스에 컴파일 시의 타입체크를 해주는 기능
+
+제너릭의 장점
+
+> 1. 타입의 안정성을 제공.
+> 2. 타입체크와 형변환을 생략할 수 있으므로 코드가 간결해짐.
+
+특징
 
 - 타입에 대해 명시하지 않으면 Object type이라고 인식
 - 기본 타입은 적용되지않음(int -> inteager)
+- static멤버에 타입 변수 T를 사용할 수 없다.
 
 ```java
 package day07;
@@ -60,7 +72,9 @@ public class Test02 {
 }
 
 // 런타임시 V, T가 무었인지 알려준다는 표시
-class Employee<V,T>{
+class Employee<V,T>{ 
+// V,T의 Employee 또는 V,T Employee라고 읽는다.
+    
 	V name;
 	T number;
 	
@@ -79,6 +93,8 @@ class Employee<V,T>{
 ```
 
 
+
+---
 
 ### 컬렉션 프레임워크
 데이터를 모아서 관리할경우 배열을 쓴다.
