@@ -1,0 +1,13 @@
+@charset "EUC-KR";
+
+.ptable > tbody > tr > td:hover {
+    background-color: black;
+}
+
+span img {
+   resize: both; 
+   float: center; 
+   max-width: 200px;
+   height: auto; 
+   margin: 5px 0; 
+}

@@ -1,0 +1,21 @@
+@charset "EUC-KR";
+@import url('https://fonts.googleapis.com/css?family=Charmonman|Indie+Flower');
+
+p:first-child{
+    font-family: 'Anton', cursive;
+    font-size: 150%;
+    font-style: italic;
+    font-weight: 300;
+
+}
+h3{
+    font_family: 'Anton', sans-serif;
+    background-color: pink;
+    color: #5CD1E5;
+    text-align: center;
+    letter-spacing: 10px;
+    line-height: 100px;
+    text-shadow:  5px 5px 5px #EAEAEA;
+
+
+}

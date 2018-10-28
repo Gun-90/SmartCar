@@ -5,11 +5,7 @@ public class DeptVO {
 	private String dname;
 	private String loc;
 	
-	/**
-	 * @param deptno
-	 * @param dname
-	 * @param loc
-	 */
+	
 	public DeptVO() {
 		super();
 		this.deptno = deptno;

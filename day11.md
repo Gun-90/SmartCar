@@ -227,25 +227,18 @@ public class Test04 {
 
 
 
-`executeQuery()`
+- `executeQuery()`
+  - ResultSet을 얻기 위한 메소드
 
-- ResultSet을 얻기 위한 메소드
+  - 주로 select 문이 이에 속한다.
 
-- 주로 select 문이 이에 속한다.
-
- `executeUpdate()`
-
-- 적용된 행의 갯수를 얻기 위한 메소드
-
-- DDL(insert, update, delete)에 사용된다.
-
-- DML(crete, drop, alter)에 사용횐다.
+- `executeUpdate()`
+  - 적용된 행의 갯수를 얻기 위한 메소드
+  - DDL(insert, update, delete)에 사용된다.
+  - DML(crete, drop, alter)에 사용횐다.
 
 
-
-- rs 는 연결된 상태에만 유효함
-
-
+- rs 는 연결된 상태에만 유효함 따라서 VO객체를 통해 값을 저장해 놔야함
 
 - vo객체 (Value object) = DTO(Data Tranper? Object) 데이터를 운반하는 객체
 

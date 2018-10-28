@@ -1,0 +1,17 @@
+@charset "EUC-KR";
+*{
+        background: cyan;
+    }
+    #hh1{
+        color: white;
+        background: red;
+    }
+
+    h1,h2,p{
+        color:red;
+        background: black;
+    }
+    .c1{
+        color: yellow;
+        background: blue;
+    }

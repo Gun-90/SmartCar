@@ -14,8 +14,8 @@ public class Test02 {
 		PreparedStatement ps = null;
 		ResultSet rs = null;
 		
-		String num  =
-		JOptionPane.showInputDialog("검색할 부서번호를 입력해 주세요");
+		// 화면 띄워서 입력받음
+		String num  = JOptionPane.showInputDialog("검색할 부서번호를 입력해 주세요");
 		int deptno = Integer.parseInt(num);
 
 		String sql="select * from emp where deptno = ?";
